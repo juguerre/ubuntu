@@ -12,7 +12,8 @@
   "memory": "2048",
   "preseed": "preseed-desktop.cfg",
   "vagrantfile_template": "tpl/vagrantfile-ubuntu1804-desktop.tpl",
-  "boot_command_prefix": "<enter><esc><esc><enter><wait>",
-  "boot_wait": "3s",
+  "boot_command_prefix": "<esc><esc><enter><wait>",
+  "boot_wait": "15s",
+  "version": "0.5.0",
   "custom_script": "script/custom/custom-script.sh"
 }
